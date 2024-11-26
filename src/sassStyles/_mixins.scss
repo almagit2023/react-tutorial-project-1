@@ -1,0 +1,22 @@
+@import './variables';
+
+// Breakpoints
+
+@mixin smBreakPoint {
+  @media (min-width : #{$screen-sm}) {
+    @content;
+  }
+}
+
+@mixin mdBreakPoint {
+  @media (min-width : #{$screen-md}) {
+    @content;
+  }
+}
+
+@mixin lgBreakPoint {
+  @media (min-width : #{$screen-lg}) {
+    @content;
+  }
+}
+
